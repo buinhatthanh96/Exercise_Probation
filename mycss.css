@@ -1,5 +1,6 @@
 body {
   font-family: Cambria;
+  color: 
 }
 table{
 	margin-top: 200px;
@@ -17,4 +18,7 @@ td{
 }
 td.title{
 	text-align: center;
+}
+td.regSuccess{
+	visibility: hidden;
 }

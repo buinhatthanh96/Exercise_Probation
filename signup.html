@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="mycss.css">
+	<script src="myScript.js"></script>
 </head>
 <body>
 	<form>
@@ -13,7 +14,7 @@
 			</tr>
 			<tr>
 				<td>Username:</td>
-				<td><input type="text" id="inUser" required></td>
+				<td><input type="text" id="inUser" required=""></td>
 			</tr>
 			<tr>
 				<td>Password:</td>
@@ -25,7 +26,7 @@
 			</tr>
 			<tr>
 				<td>Email:</td>
-				<td><input type="text" id="inEmail" required></td>
+				<td><input type="text" id="inEmail" ></td>
 			</tr>
 
 			<tr>
@@ -34,23 +35,23 @@
 			</tr>
 			<tr>
 				<td>Gender</td>
-				<td><input type="radio" name="gender" value="male"> Male<br></td>
+				<td><input type="radio" name="gender" id="male" value="male"> Male<br></td>
 			</tr>
-			<tr><td></td><td><input type="radio" name="gender" value="female"> Female<br></td></tr>
+			<tr><td></td><td><input type="radio" name="gender" id="female" value="female"> Female<br></td></tr>
 			<tr>
 				<td>Phone:</td>
 				<td><input type="text" id="inPhone" ></td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<button onclick="fsignup()">Register</button>
+					<input type="button" onclick="fsignup()" value="Register">
 				</td>
 			</tr>
 			<tr>
-				<td colspan="2"><p id="message"></p></td>
+				<td colspan="2" class="regSuccess" id="regSuccess">Register Success</td>
 			</tr>
 		</table>
 	</form>
-	<script src="myScript.js" charset="UTF-8"></script>
+	
 </body>
 </html>
