@@ -1,11 +1,5 @@
-git clone https://github.com/buinhatthanh96/Exercise_Probation.git
-git status
-git add * 
-git commit -m ""
-git push
+var and let:
++ let: scope in a block { }
++ var: scope through in  funtion
+Game Blackjack (xì lát): coding
 
-git branch "name"
-git branch
-git checkout
-git status
-git push origin --delete <branch> 
